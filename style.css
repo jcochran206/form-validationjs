@@ -73,6 +73,14 @@ form div i {
     opacity: 0;
 }
 
+.success-icon .active {
+    opacity: 1;
+}
+
+.failure-icon .active {
+    opacity: 1;
+}
+
 /* button style */
 button {
     margin-top: 15px;
@@ -90,4 +98,43 @@ button {
 
 button:hover {
     opacity: 0.8;
+}
+
+/* social section */
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.btn-1, .btn-2 {
+    padding: 10px 5px;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #c4c4c4;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0,0,0, 0.2);
+    cursor: pointer;
+}
+
+.btn-2 {
+    background-color: #4f70b5;
+    color: #fff;
+}
+
+.or {
+    text-align: center;
+}
+
+.question {
+    font-size: 15px;
+}
+
+span {
+    color: #f2796e;
+    cursor: pointer;
 }
