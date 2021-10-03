@@ -14,7 +14,8 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 400px;
+    width: 45%;
+    max-width: none;
     box-shadow: 2px 2px 4px rgba(0,0,0, 0.2);
     padding: 50px;
 }
@@ -138,3 +139,33 @@ span {
     color: #f2796e;
     cursor: pointer;
 }
+/* content */
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #f2796e;
+    width: 55%;
+    min-height: 100vh;
+    padding: 10px 20px;
+}
+
+.image {
+    background-image: url('images/illustration.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center;
+    height: 65%;
+}
+
+.text {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
